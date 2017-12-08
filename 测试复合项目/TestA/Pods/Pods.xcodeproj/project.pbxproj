@@ -1373,6 +1373,27 @@
 			};
 			name = Release;
 		};
+		0E8FBBAC5C2E9CD6D78110C824C28C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F9FD35C5F1EC56C0E146AECDD9DDFF /* Pods-TestC.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		4673C27143636A792FCC835E604F8710 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 23067E1283DE83D38C4F0CAEE3520601 /* Pods-TestA.debug.xcconfig */;
@@ -1415,27 +1436,6 @@
 			};
 			name = Release;
 		};
-		6E4D245E43F2BCCD2B09AD17425B6C1F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6F9FD35C5F1EC56C0E146AECDD9DDFF /* Pods-TestC.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		715E02253C09335E8F806757A30F8DDB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 78BD07B7FFD0D22C7CDB08B6DCE65917 /* Pods-TestB.debug.xcconfig */;
@@ -1473,26 +1473,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		85D49A36965E9528B5500C8092AA95C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A12E2DD3A953E1947D11DC1667E6031 /* Pods-TestC.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1572,6 +1552,26 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		DC8652D1C515FB6438694C1BC7AAD149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A12E2DD3A953E1947D11DC1667E6031 /* Pods-TestC.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1726,8 +1726,8 @@
 		9986BEA642270F5D7B62D2927C69E209 /* Build configuration list for PBXNativeTarget "Pods-TestC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85D49A36965E9528B5500C8092AA95C0 /* Debug */,
-				6E4D245E43F2BCCD2B09AD17425B6C1F /* Release */,
+				DC8652D1C515FB6438694C1BC7AAD149 /* Debug */,
+				0E8FBBAC5C2E9CD6D78110C824C28C9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -5,6 +5,7 @@ workspace 'TestA.xcworkspace' # workspace文件名（下面的路径都是相对
 
 # 主项目
 target 'TestA' do
+  platform :ios, '8.0'
   project 'TestA.xcodeproj' # 指定主工程路径（导入指令：用xcodeproj或project都可以）
   pod 'AFNetworking', '~> 3.1.0'
 
@@ -12,6 +13,7 @@ end
 
 # 子项目1（APP项目）
 target 'TestB' do
+    platform :ios, '8.0'
     project '../TestB/TestB.xcodeproj' # 指定子工程路径
     pod 'YYKit', '~> 1.0.9'
 
@@ -19,6 +21,7 @@ end
 
 # 子项目2（静态库项目）
 target 'TestC' do
+    platform :ios, '8.0'
     project '../TestC/TestC.xcodeproj' # 指定子工程路径
     
 end
